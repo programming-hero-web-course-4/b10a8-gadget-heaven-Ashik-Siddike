@@ -49,7 +49,7 @@ export default function Navbar() {
                 isActive("/statistics") ? "underline" : ""
               }`}
             >
-              Stats
+              Statistics
             </Link>
           </li>
           <li>

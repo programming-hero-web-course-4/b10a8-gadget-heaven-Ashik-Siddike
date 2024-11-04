@@ -26,7 +26,7 @@ export default function CategorySidebar() {
                   ? "/"
                   : `/?category=${category.name.toLowerCase()}`
               }
-              className={`flex border-2 text-center space-x-3 p-3 rounded-lg hover:bg-purple-100 transition-colors ${
+              className={`flex border-2 text-center space-x-3 p-3 rounded-xl hover:bg-purple-100 transition-colors ${
                 currentCategory === category.name.toLowerCase() ||
                 (!currentCategory && category.name === "All Products")
                   ? "bg-purple-700 text-purple-100"
