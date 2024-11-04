@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gadget Heaven</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav
+      class="bg-purple-700 text-white px-6 py-4 flex justify-between items-center"
+    
+      <h1 class="text-2xl font-bold">Gadget Heaven</h1>
+      <ul class="flex space-x-8 text-lg font-medium">
+        <li><a href="#" class="hover:underline">Home</a></li>
+        <li><a href="#" class="hover:underline">Statistics</a></li>
+        <li><a href="#" class="hover:underline">Dashboard</a></li>
+      </ul>
+      <div class="flex space-x-4 items-center">
+        <button class="text-white"><i class="fas fa-heart"></i></button>
+        <button class="text-white"><i class="fas fa-shopping-cart"></i></button>
+      </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <section class="bg-purple-700 text-white text-center py-16 px-4">
+      <h2 class="text-4xl font-bold mb-4">
+        Upgrade Your Tech Accessorize with Gadget Heaven Accessories
+      </h2>
+      <p class="mb-8 max-w-xl mx-auto">
+        Explore the latest gadgets that will take your experience to the next
+        level. From smart devices to the coolest accessories, we have it all!
+      </p>
+      <button
+        class="bg-white text-purple-700 px-8 py-3 rounded-full font-semibold"
+      >
+        Shop Now
+      </button>
+    </section>
+
+    <!-- Featured Product Image -->
+    <section class="py-12 px-4">
+      <div class="max-w-5xl mx-auto rounded-xl overflow-hidden shadow-lg">
+        <img
+          src="https://via.placeholder.com/800x400"
+          alt="Featured Product"
+          class="w-full h-auto object-cover"
+        />
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="text-center py-16 bg-gray-100">
+      <h3 class="text-3xl font-bold mb-8">Explore Cutting-Edge Gadgets</h3>
+
+      <!-- Category Filter Buttons -->
+      <div class="flex flex-col justify-center mb-12 space-x-4">
+        <button class="bg-purple-600 text-white px-4 py-2 rounded-full">
+          All Product
+        </button>
+        <button class="bg-gray-200 text-gray-700 px-4 py-2 rounded-full">
+          Laptops
+        </button>
+        <button class="bg-gray-200 text-gray-700 px-4 py-2 rounded-full">
+          Phones
+        </button>
+        <button class="bg-gray-200 text-gray-700 px-4 py-2 rounded-full">
+          Accessories
+        </button>
+        <button class="bg-gray-200 text-gray-700 px-4 py-2 rounded-full">
+          Smart Watches
+        </button>
+        <button class="bg-gray-200 text-gray-700 px-4 py-2 rounded-full">
+          MacBook
+        </button>
+        <button class="bg-gray-200 text-gray-700 px-4 py-2 rounded-full">
+          iPhone
+        </button>
+      </div>
+
+      <!-- Product Cards Grid -->
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-6 max-w-6xl mx-auto"
+      >
+        <!-- Single Product Card -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <div class="h-40 bg-gray-300 rounded mb-4"></div>
+          <h4 class="text-lg font-semibold">Dell XPS 13</h4>
+          <p class="text-gray-500">Price: 99.99k</p>
+          <button
+            class="mt-4 bg-purple-700 text-white py-2 px-4 rounded-lg w-full"
+          >
+            View Details
+          </button>
+        </div>
+        <!-- Duplicate this product card structure for other products -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+      <div
+        class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left"
+      >
+        <!-- Brand and Description -->
+        <div>
+          <h5 class="text-2xl font-bold text-white">Gadget Heaven</h5>
+          <p class="mt-4">
+            Leading the way in cutting-edge technology and innovation.
+          </p>
+        </div>
+
+        <!-- Services Links -->
+        <div>
+          <h6 class="text-lg font-semibold text-white mb-4">Services</h6>
+          <ul>
+            <li><a href="#" class="hover:underline">Product Support</a></li>
+            <li><a href="#" class="hover:underline">Order Tracking</a></li>
+            <li><a href="#" class="hover:underline">Shipping & Delivery</a></li>
+            <li><a href="#" class="hover:underline">Returns</a></li>
+          </ul>
+        </div>
+
+        <!-- Company Links -->
+        <div>
+          <h6 class="text-lg font-semibold text-white mb-4">Company</h6>
+          <ul>
+            <li><a href="#" class="hover:underline">About Us</a></li>
+            <li><a href="#" class="hover:underline">Careers</a></li>
+            <li><a href="#" class="hover:underline">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Legal Links -->
+        <div>
+          <h6 class="text-lg font-semibold text-white mb-4">Legal</h6>
+          <ul>
+            <li><a href="#" class="hover:underline">Terms of Service</a></li>
+            <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+            <li><a href="#" class="hover:underline">Cookie Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

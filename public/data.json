@@ -3,322 +3,182 @@
     {
       "id": 1,
       "title": "MacBook Pro M2",
+      "image": "https://i.ibb.co/1m9ckFj/image.png",
+      "category": "macbook",
       "price": 1299.99,
-      "category": "computers",
-      "image": "https://i.ibb.co/G3q0rZY/macbook.jpg",
-      "rating": 4.8,
       "specifications": [
         "Apple M2 Chip",
-        "16GB Unified Memory",
-        "512GB SSD Storage",
-        "13.3-inch Retina Display",
-        "Up to 20 Hours Battery Life"
+        "16GB RAM",
+        "512GB SSD",
+        "13.3-inch Retina Display"
       ],
-      "availability": true
+      "availability": true,
+      "rating": 4.8
     },
     {
       "id": 2,
-      "title": "iPhone 15 Pro",
-      "price": 999.99,
-      "category": "phones",
-      "image": "https://i.ibb.co/4Nm8mVJ/iphone.jpg",
-      "rating": 4.9,
+      "title": "MacBook Air M2",
+      "image": "https://i.ibb.co/1m9ckFj/image.png",
+      "category": "macbook",
+      "price": 1199.99,
       "specifications": [
-        "A17 Pro Chip",
-        "6.1-inch Super Retina XDR Display",
-        "48MP Main Camera",
-        "Titanium Design",
-        "5G Capable"
+        "Apple M2 Chip",
+        "8GB RAM",
+        "256GB SSD",
+        "13.6-inch Liquid Retina Display"
       ],
-      "availability": true
+      "availability": true,
+      "rating": 4.7
     },
     {
       "id": 3,
-      "title": "Apple Watch Series 9",
-      "price": 399.99,
-      "category": "smart-watches",
-      "image": "https://i.ibb.co/xS2V8Lv/apple-watch.jpg",
-      "rating": 4.7,
+      "title": "Dell XPS 13",
+      "image": "https://i.ibb.co/1m9ckFj/image.png",
+      "category": "laptops",
+      "price": 1199.99,
       "specifications": [
-        "S9 Chip",
-        "Always-On Retina Display",
-        "Blood Oxygen Monitoring",
-        "ECG App",
-        "Water Resistant"
+        "Intel Core i7",
+        "16GB RAM",
+        "512GB SSD",
+        "13.4-inch 4K Display"
       ],
-      "availability": true
+      "availability": true,
+      "rating": 4.6
     },
     {
       "id": 4,
+      "title": "HP Spectre x360",
+      "image": "https://i.ibb.co/1m9ckFj/image.png",
+      "category": "laptops",
+      "price": 1399.99,
+      "specifications": [
+        "Intel Core i7",
+        "16GB RAM",
+        "1TB SSD",
+        "14-inch 4K OLED"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "id": 5,
+      "title": "iPhone 14 Pro",
+      "image": "https://i.ibb.co/Sdbqfqg/image.png",
+      "category": "iphone",
+      "price": 999.99,
+      "specifications": [
+        "A16 Bionic Chip",
+        "6.1-inch Super Retina XDR",
+        "48MP Camera System",
+        "256GB Storage"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "id": 6,
+      "title": "iPhone 14",
+      "image": "https://i.ibb.co/Sdbqfqg/image.png",
+      "category": "iphone",
+      "price": 799.99,
+      "specifications": [
+        "A15 Bionic Chip",
+        "6.1-inch Super Retina XDR",
+        "Dual Camera System",
+        "128GB Storage"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "id": 7,
+      "title": "Samsung Galaxy S23",
+      "image": "https://i.ibb.co/Sdbqfqg/image.png",
+      "category": "phones",
+      "price": 899.99,
+      "specifications": [
+        "Snapdragon 8 Gen 2",
+        "8GB RAM",
+        "256GB Storage",
+        "50MP Camera"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "id": 8,
+      "title": "Google Pixel 7 Pro",
+      "image": "https://i.ibb.co/Sdbqfqg/image.png",
+      "category": "phones",
+      "price": 899.99,
+      "specifications": [
+        "Google Tensor G2",
+        "12GB RAM",
+        "256GB Storage",
+        "50MP Camera"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "id": 9,
+      "title": "Apple Watch Series 8",
+      "image": "https://i.ibb.co/Sdbqfqg/image.png",
+      "category": "smart watches",
+      "price": 399.99,
+      "specifications": [
+        "Always-On Retina Display",
+        "Temperature Sensing",
+        "Blood Oxygen Monitoring",
+        "ECG App"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "id": 10,
+      "title": "Samsung Galaxy Watch 5",
+      "image": "https://i.ibb.co/Sdbqfqg/image.png",
+      "category": "smart watches",
+      "price": 279.99,
+      "specifications": [
+        "Super AMOLED Display",
+        "Body Composition Analysis",
+        "Advanced Sleep Coaching",
+        "ECG Monitoring"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "id": 11,
       "title": "AirPods Pro",
-      "price": 249.99,
+      "image": "https://i.ibb.co/Sdbqfqg/image.png",
       "category": "accessories",
-      "image": "https://i.ibb.co/ZX4DTK6/airpods.jpg",
-      "rating": 4.8,
+      "price": 249.99,
       "specifications": [
         "Active Noise Cancellation",
         "Adaptive EQ",
         "Spatial Audio",
-        "Water Resistant",
-        "24Hr Battery Life with Case"
+        "Water Resistant"
       ],
-      "availability": true
-    },
-    {
-      "id": 5,
-      "title": "iPad Pro",
-      "price": 799.99,
-      "category": "tablets",
-      "image": "https://i.ibb.co/F3mJXXJ/ipad.jpg",
-      "rating": 4.9,
-      "specifications": [
-        "M2 Chip",
-        "11-inch Liquid Retina Display",
-        "12MP Wide Camera",
-        "Face ID",
-        "All-Day Battery Life"
-      ],
-      "availability": true
-    },
-    {
-      "id": 6,
-      "title": "MagSafe Charger",
-      "price": 39.99,
-      "category": "chargers",
-      "image": "https://i.ibb.co/C8Q9w4q/magsafe.jpg",
-      "rating": 4.6,
-      "specifications": [
-        "15W Wireless Charging",
-        "Magnetic Alignment",
-        "Compatible with iPhone 12 and Later",
-        "USB-C Connection",
-        "Compact Design"
-      ],
-      "availability": true
-    },
-    {
-      "id": 7,
-      "title": "Samsung Galaxy S24 Ultra",
-      "price": 1199.99,
-      "category": "phones",
-      "image": "https://i.ibb.co/0Q4YX3M/samsung.jpg",
-      "rating": 4.8,
-      "specifications": [
-        "Snapdragon 8 Gen 3",
-        "6.8-inch Dynamic AMOLED Display",
-        "200MP Main Camera",
-        "S Pen Included",
-        "5G Capable"
-      ],
-      "availability": true
-    },
-    {
-      "id": 8,
-      "title": "Dell XPS 15",
-      "price": 1499.99,
-      "category": "computers",
-      "image": "https://i.ibb.co/VvC0K1m/dell.jpg",
-      "rating": 4.7,
-      "specifications": [
-        "Intel Core i9 13th Gen",
-        "32GB RAM",
-        "1TB SSD",
-        "15.6-inch 4K OLED Display",
-        "NVIDIA RTX 4070"
-      ],
-      "availability": true
-    },
-    {
-      "id": 9,
-      "title": "Anker Power Bank",
-      "price": 59.99,
-      "category": "power-banks",
-      "image": "https://i.ibb.co/C1vPVXD/powerbank.jpg",
-      "rating": 4.5,
-      "specifications": [
-        "26800mAh Capacity",
-        "65W Fast Charging",
-        "Triple USB Ports",
-        "LED Display",
-        "Airline Safe"
-      ],
-      "availability": true
-    },
-    {
-      "id": 10,
-      "title": "Sony WH-1000XM5",
-      "price": 399.99,
-      "category": "accessories",
-      "image": "https://i.ibb.co/9hG2z5q/sony-headphones.jpg",
-      "rating": 4.9,
-      "specifications": [
-        "Industry-leading Noise Cancellation",
-        "30-hour Battery Life",
-        "Multi-device Pairing",
-        "Touch Controls",
-        "Hi-Res Audio Support"
-      ],
-      "availability": true
-    },
-    {
-      "id": 11,
-      "title": "Google Pixel 8 Pro",
-      "price": 899.99,
-      "category": "phones",
-      "image": "https://i.ibb.co/KxZKFVN/pixel.jpg",
-      "rating": 4.7,
-      "specifications": [
-        "Google Tensor G3",
-        "6.7-inch LTPO OLED Display",
-        "50MP Triple Camera System",
-        "Android 14",
-        "7 Years of Updates"
-      ],
-      "availability": true
+      "availability": true,
+      "rating": 4.8
     },
     {
       "id": 12,
-      "title": "ASUS ROG Zephyrus G14",
-      "price": 1699.99,
-      "category": "computers",
-      "image": "https://i.ibb.co/C6BvxNg/asus-rog.jpg",
-      "rating": 4.8,
-      "specifications": [
-        "AMD Ryzen 9 7940HS",
-        "NVIDIA RTX 4070",
-        "32GB DDR5 RAM",
-        "1TB NVMe SSD",
-        "14-inch 165Hz Display"
-      ],
-      "availability": true
-    },
-    {
-      "id": 13,
-      "title": "Samsung Galaxy Watch 6",
-      "price": 299.99,
-      "category": "smart-watches",
-      "image": "https://i.ibb.co/0JKpmgd/galaxy-watch.jpg",
-      "rating": 4.6,
-      "specifications": [
-        "Wear OS 4",
-        "Advanced Sleep Tracking",
-        "Body Composition Analysis",
-        "ECG Monitoring",
-        "40mm/44mm Options"
-      ],
-      "availability": true
-    },
-    {
-      "id": 14,
-      "title": "Belkin 3-in-1 Wireless Charger",
-      "price": 149.99,
-      "category": "chargers",
-      "image": "https://i.ibb.co/VqGhYZs/belkin-charger.jpg",
-      "rating": 4.7,
-      "specifications": [
-        "15W Fast Wireless Charging",
-        "MagSafe Compatible",
-        "Charges iPhone, Apple Watch, AirPods",
-        "Premium Design",
-        "LED Indicators"
-      ],
-      "availability": true
-    },
-    {
-      "id": 15,
-      "title": "Microsoft Surface Laptop 5",
-      "price": 1299.99,
-      "category": "computers",
-      "image": "https://i.ibb.co/4FtXxP2/surface-laptop.jpg",
-      "rating": 4.6,
-      "specifications": [
-        "Intel Core i7 12th Gen",
-        "16GB RAM",
-        "512GB SSD",
-        "13.5-inch PixelSense Display",
-        "Windows 11 Pro"
-      ],
-      "availability": true
-    },
-    {
-      "id": 16,
-      "title": "Xiaomi 20000mAh Power Bank",
-      "price": 49.99,
-      "category": "power-banks",
-      "image": "https://i.ibb.co/XSv7TM9/xiaomi-powerbank.jpg",
-      "rating": 4.5,
-      "specifications": [
-        "20000mAh Capacity",
-        "50W Fast Charging",
-        "Dual USB-A Ports",
-        "USB-C Port",
-        "LED Power Indicator"
-      ],
-      "availability": true
-    },
-    {
-      "id": 17,
-      "title": "Nothing Phone 2",
-      "price": 699.99,
-      "category": "phones",
-      "image": "https://i.ibb.co/wS6ZTg9/nothing-phone.jpg",
-      "rating": 4.6,
-      "specifications": [
-        "Snapdragon 8+ Gen 1",
-        "6.7-inch OLED Display",
-        "Glyph Interface",
-        "50MP Dual Camera",
-        "45W Fast Charging"
-      ],
-      "availability": true
-    },
-    {
-      "id": 18,
-      "title": "Logitech MX Master 3S",
-      "price": 99.99,
+      "title": "Magic Keyboard",
+      "image": "https://i.ibb.co/Sdbqfqg/image.png",
       "category": "accessories",
-      "image": "https://i.ibb.co/3kPNXJx/mx-master.jpg",
-      "rating": 4.8,
+      "price": 299.99,
       "specifications": [
-        "8000 DPI Sensor",
-        "Quiet Clicks",
-        "Multi-device Support",
-        "USB-C Charging",
-        "Ergonomic Design"
+        "Full-size Keyboard",
+        "Backlit Keys",
+        "Trackpad",
+        "USB-C Port"
       ],
-      "availability": true
-    }
-  ],
-  "categories": [
-    {
-      "id": 1,
-      "name": "Computers",
-      "icon": "💻"
-    },
-    {
-      "id": 2,
-      "name": "Phones",
-      "icon": "📱"
-    },
-    {
-      "id": 3,
-      "name": "Smart Watches",
-      "icon": "⌚"
-    },
-    {
-      "id": 4,
-      "name": "Chargers",
-      "icon": "🔌"
-    },
-    {
-      "id": 5,
-      "name": "Power Banks",
-      "icon": "🔋"
-    },
-    {
-      "id": 6,
-      "name": "Accessories",
-      "icon": "🎧"
+      "availability": true,
+      "rating": 4.6
     }
   ]
 }
