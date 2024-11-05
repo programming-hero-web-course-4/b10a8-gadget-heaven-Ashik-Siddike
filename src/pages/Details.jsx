@@ -139,7 +139,7 @@ export default function Details() {
               <button
                 onClick={handleAddToCart}
                 disabled={!product.availability}
-                className={`px-5 py-3 rounded-full font-medium transition-colors ${
+                className={`px-5 py-3 rounded-xl font-medium transition-colors ${
                   product.availability
                     ? "bg-purple-600 text-white hover:bg-purple-700"
                     : "bg-gray-300 cursor-not-allowed"
