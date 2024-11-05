@@ -88,7 +88,7 @@ export default function Dashboard() {
 
       {/* Main Content */}
 
-      <main className="container mx-auto px-4 py-8">
+      <main className="w-11/12 mx-auto px-4 py-8">
         {activeTab === "cart" && (
           <>
             <div className="flex flex-col md:flex-row justify-between items-center mb-6">
