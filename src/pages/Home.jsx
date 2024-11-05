@@ -48,7 +48,7 @@ export default function Home() {
       <h2 className="text-2xl md:text-5xl text-center text-black font-bold my-5">
         Explore Cutting-Edge Gadgets
       </h2>
-      <div className="w-11/12 mx-auto px-4 py-8">
+      <div className="lg:w-11/12 mx-auto px-4 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
           {/* Sidebar */}
           <div className="lg:col-span-3">

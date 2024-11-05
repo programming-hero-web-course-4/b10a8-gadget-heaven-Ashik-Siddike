@@ -69,7 +69,7 @@ export default function Statistics() {
         <h3 className="text-2xl font-bold">Statistics</h3>
       </div>
 
-      <div className="w-11/12 mx-auto bg-white p-6 rounded-lg shadow-lg">
+      <div className="lg:w-11/12 mx-auto bg-white p-6 rounded-lg shadow-lg">
         <div className="h-[400px]">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart
