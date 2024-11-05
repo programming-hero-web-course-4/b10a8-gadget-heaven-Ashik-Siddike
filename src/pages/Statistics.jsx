@@ -43,12 +43,12 @@ export default function Statistics() {
   }, []);
 
   return (
-    <div className="container mx-auto px-4 py-8 mt-16">
+    <div className="container mx-auto px-4 py-8 pt-16">
       <div className="text-center bg-purple-700">
         <h1 className="text-3xl font-bold mb-5 pt-8 text-white">
           Sales Statistics
         </h1>
-        <p className="text-gray-600 pb-12 text-white">
+        <p className=" pb-12 text-white">
           This chart shows the number of products sold for each category.
         </p>
       </div>

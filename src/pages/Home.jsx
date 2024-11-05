@@ -15,7 +15,7 @@ export default function Home() {
     fetch("/data.json")
       .then((res) => {
         if (!res.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error("Network response was not ok");
         }
         return res.json();
       })
@@ -45,15 +45,19 @@ export default function Home() {
   return (
     <div>
       <Banner />
-      <div className="container mx-auto px-4 py-8">
-        <div className="grid grid-cols-12 gap-6">
+      <h2 className="text-2xl md:text-5xl text-center text-black font-bold my-5">
+        Explore Cutting-Edge Gadgets
+      </h2>
+      <div className="w-11/12 mx-auto px-4 py-8">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
           {/* Sidebar */}
-          <div className="col-span-3">
+          <div className="lg:col-span-3">
             <CategorySidebar />
           </div>
 
           {/* Products Grid */}
-          <div className="col-span-9">
+
+          <div className="lg:col-span-9">
             {loading ? (
               <div className="text-center py-8">Loading...</div>
             ) : (

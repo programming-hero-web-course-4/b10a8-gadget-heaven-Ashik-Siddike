@@ -9,6 +9,6 @@ document.title = "GadgetHeaven - Your Tech Shopping Destination";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
-    <Toaster position="bottom-right" />
+    <Toaster position="top-center" />
   </StrictMode>
 );

@@ -77,22 +77,21 @@ export default function Dashboard() {
       <main className="container mx-auto px-4 py-8">
         {activeTab === "cart" && (
           <>
-            <div className="flex justify-between items-center mb-6">
-              <h2 className="text-xl font-semibold">Shopping Cart</h2>
-              <div className="flex items-center space-x-4">
+            <div className="flex flex-col md:flex-row justify-between items-center mb-6">
+              <h2 className="text-xl font-semibold mb-4 md:mb-0">Shopping Cart</h2>
+              <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
                 <p className="text-gray-600">
-                  Total:{" "}
-                  <span className="font-bold">${totalPrice.toFixed(2)}</span>
+                  Total: <span className="font-bold">${totalPrice.toFixed(2)}</span>
                 </p>
                 <button
                   onClick={handleSort}
-                  className="px-4 py-2 text-purple-600 border border-purple-600 rounded-lg hover:bg-purple-50"
+                  className="w-full md:w-auto px-4 py-2 text-purple-600 border border-purple-600 rounded-full hover:bg-purple-50"
                 >
                   Sort by Price {sortOrder === "desc" ? "↓" : "↑"}
                 </button>
                 <button
                   onClick={() => setShowModal(true)}
-                  className="px-6 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700"
+                  className="w-full md:w-auto px-6 py-2 bg-purple-600 text-white rounded-full hover:bg-purple-700"
                   disabled={cart.length === 0}
                 >
                   Purchase
