@@ -1,22 +1,31 @@
 import { useState, useEffect } from "react";
+
 import { useCart } from "../context/CartContext";
+
 import PurchaseModal from "../components/PurchaseModal";
+
 import { useLocation } from "react-router-dom";
 
 export default function Dashboard() {
   const location = useLocation();
+
   const [activeTab, setActiveTab] = useState(
     location.search.includes("tab=wishlist") ? "wishlist" : "cart"
   );
+
   const [showModal, setShowModal] = useState(false);
+
   const { cart, wishlist, removeFromCart, removeFromWishlist, addToCart } =
     useCart();
 
   // Calculate total price
+
   const totalPrice = cart.reduce((sum, item) => sum + item.price, 0);
 
   // Sort cart items by price
+
   const [sortedCart, setSortedCart] = useState([]);
+
   const [sortOrder, setSortOrder] = useState("desc");
 
   useEffect(() => {
@@ -28,6 +37,7 @@ export default function Dashboard() {
   }, [cart, sortOrder]);
 
   // Update active tab based on URL
+
   useEffect(() => {
     setActiveTab(
       location.search.includes("tab=wishlist") ? "wishlist" : "cart"
@@ -43,15 +53,17 @@ export default function Dashboard() {
   }, []);
 
   return (
-    <div className="mt-16">
+    <div className="mt-16 min-h-screen">
       {/* Header Section */}
+
       <header className="bg-purple-600 py-12 text-white">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-3xl font-bold mb-4">Your Dashboard</h1>
+
           <div className="flex justify-center space-x-4">
             <button
               onClick={() => setActiveTab("cart")}
-              className={`px-6 py-2 rounded-full transition-colors ${
+              className={`px-6 py-2 rounded-full ${
                 activeTab === "cart"
                   ? "bg-white text-purple-600"
                   : "bg-purple-500 border border-white"
@@ -59,9 +71,10 @@ export default function Dashboard() {
             >
               Cart ({cart.length})
             </button>
+
             <button
               onClick={() => setActiveTab("wishlist")}
-              className={`px-6 py-2 rounded-full transition-colors ${
+              className={`px-6 py-2 rounded-full ${
                 activeTab === "wishlist"
                   ? "bg-white text-purple-600"
                   : "bg-purple-500 border border-white"
@@ -74,21 +87,28 @@ export default function Dashboard() {
       </header>
 
       {/* Main Content */}
+
       <main className="container mx-auto px-4 py-8">
         {activeTab === "cart" && (
           <>
             <div className="flex flex-col md:flex-row justify-between items-center mb-6">
-              <h2 className="text-xl font-semibold mb-4 md:mb-0">Shopping Cart</h2>
+              <h2 className="text-xl font-semibold mb-4 md:mb-0">
+                Shopping Cart
+              </h2>
+
               <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
                 <p className="text-gray-600">
-                  Total: <span className="font-bold">${totalPrice.toFixed(2)}</span>
+                  Total:{" "}
+                  <span className="font-bold">${totalPrice.toFixed(2)}</span>
                 </p>
+
                 <button
                   onClick={handleSort}
                   className="w-full md:w-auto px-4 py-2 text-purple-600 border border-purple-600 rounded-full hover:bg-purple-50"
                 >
                   Sort by Price {sortOrder === "desc" ? "↓" : "↑"}
                 </button>
+
                 <button
                   onClick={() => setShowModal(true)}
                   className="w-full md:w-auto px-6 py-2 bg-purple-600 text-white rounded-full hover:bg-purple-700"
@@ -111,11 +131,14 @@ export default function Dashboard() {
                       alt={item.title}
                       className="w-20 h-20 object-cover rounded-lg"
                     />
+
                     <div>
                       <h3 className="font-semibold">{item.title}</h3>
+
                       <p className="text-gray-600">${item.price}</p>
                     </div>
                   </div>
+
                   <button
                     onClick={() => removeFromCart(item.id)}
                     className="text-red-500 hover:text-red-600"
@@ -141,12 +164,16 @@ export default function Dashboard() {
                     alt={item.title}
                     className="w-20 h-20 object-cover rounded-lg"
                   />
+
                   <div>
                     <h3 className="font-semibold">{item.title}</h3>
+
                     <p className="text-gray-600">${item.price}</p>
+
                     <button
                       onClick={() => {
                         addToCart(item);
+
                         removeFromWishlist(item.id);
                       }}
                       className="mt-2 px-4 py-1 bg-purple-600 text-white rounded-lg hover:bg-purple-700"
@@ -155,6 +182,7 @@ export default function Dashboard() {
                     </button>
                   </div>
                 </div>
+
                 <button
                   onClick={() => removeFromWishlist(item.id)}
                   className="text-red-500 hover:text-red-600"

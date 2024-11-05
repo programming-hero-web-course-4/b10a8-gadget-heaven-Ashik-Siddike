@@ -15,18 +15,18 @@ export default function Navbar() {
   return (
     <nav
       className={`${
-        isHomePage
-          ? "bg-purple-700 text-white"
-          : "bg-white text-black"
+        isHomePage ? "bg-purple-700 text-white" : "bg-white text-black"
       } px-4 md:px-6 py-4 fixed top-0 w-full z-50`}
     >
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link to="/" className="text-2xl font-bold">GadgetHeaven</Link>
+          <Link to="/" className="text-2xl font-bold">
+            GadgetHeaven
+          </Link>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="lg:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
@@ -34,11 +34,17 @@ export default function Navbar() {
           </button>
 
           {/* Desktop Menu */}
-          <ul className={`hidden lg:flex space-x-8 text-lg font-medium ${isHomePage ? 'text-white' : 'text-black'}`}>
+          <ul
+            className={`hidden lg:flex space-x-8 text-lg font-medium ${
+              isHomePage ? "text-white" : "text-black"
+            }`}
+          >
             <li>
               <Link
                 to="/"
-                className={`hover:underline ${isActive("/") ? "underline" : ""}`}
+                className={`hover:underline ${
+                  isActive("/") ? "underline" : ""
+                }`}
               >
                 Home
               </Link>
@@ -60,7 +66,7 @@ export default function Navbar() {
                   isActive("/statistics") ? "underline" : ""
                 }`}
               >
-                Stats
+                Statistics
               </Link>
             </li>
             <li>
@@ -112,19 +118,31 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className={`lg:hidden mt-4 pb-4 ${isHomePage ? 'text-white' : 'text-black'}`}>
+          <div
+            className={`lg:hidden mt-4 pb-4 ${
+              isHomePage ? "text-white" : "text-black"
+            }`}
+          >
             <ul className="space-y-4">
               <li>
-                <Link to="/" className="block">Home</Link>
+                <Link to="/" className="block">
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to="/dashboard" className="block">Dashboard</Link>
+                <Link to="/dashboard" className="block">
+                  Dashboard
+                </Link>
               </li>
               <li>
-                <Link to="/statistics" className="block">Stats</Link>
+                <Link to="/statistics" className="block">
+                  Stats
+                </Link>
               </li>
               <li>
-                <Link to="/about" className="block">About</Link>
+                <Link to="/about" className="block">
+                  About
+                </Link>
               </li>
             </ul>
             <div className="flex items-center space-x-4 mt-4">

@@ -11,8 +11,9 @@ export default function Banner() {
             Upgrade Your Tech Game with Gadget Heaven
           </h2>
           <p className="mb-5 text-sm md:text-base max-w-xl mx-auto">
-            Explore the latest gadgets that will take your experience to the next
-            level. From smart devices to the coolest accessories, we have it all!
+            Explore the latest gadgets that will take your experience to the
+            next level. From smart devices to the coolest accessories, we have
+            it all!
           </p>
           <button
             onClick={() => navigate("/dashboard")}
@@ -22,7 +23,7 @@ export default function Banner() {
           </button>
         </div>
       </div>
-      
+
       <div className="w-[90%] md:w-2/3 mx-auto mt-8 md:mt-5 absolute left-1/2 transform -translate-x-1/2 bottom-0 translate-y-1/2">
         <div className="p-3 md:p-5 border-2 border-white rounded-xl">
           <img

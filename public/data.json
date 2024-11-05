@@ -1,184 +1,185 @@
-{
-  "products": [
-    {
-      "id": 1,
-      "title": "MacBook Pro M2",
-      "image": "https://i.ibb.co.com/0t5M1My/image.png",
-      "category": "macbook",
-      "price": 1299.99,
-      "specifications": [
-        "Apple M2 Chip",
-        "16GB RAM",
-        "512GB SSD",
-        "13.3-inch Retina Display"
-      ],
-      "availability": true,
-      "rating": 4.8
-    },
-    {
-      "id": 2,
-      "title": "MacBook Air M2",
-      "image": "https://i.ibb.co.com/bsMqsF8/image.png",
-      "category": "macbook",
-      "price": 1199.99,
-      "specifications": [
-        "Apple M2 Chip",
-        "8GB RAM",
-        "256GB SSD",
-        "13.6-inch Liquid Retina Display"
-      ],
-      "availability": true,
-      "rating": 4.7
-    },
-    {
-      "id": 3,
-      "title": "Dell XPS 13",
-      "image": "https://i.ibb.co.com/Fx3Fz8j/image.png",
-      "category": "laptops",
-      "price": 1199.99,
-      "specifications": [
-        "Intel Core i7",
-        "16GB RAM",
-        "512GB SSD",
-        "13.4-inch 4K Display"
-      ],
-      "availability": true,
-      "rating": 4.6
-    },
-    {
-      "id": 4,
-      "title": "HP Spectre x360",
-      "image": "https://i.ibb.co.com/PMQD5Fg/image.png",
-      "category": "laptops",
-      "price": 1399.99,
-      "specifications": [
-        "Intel Core i7",
-        "16GB RAM",
-        "1TB SSD",
-        "14-inch 4K OLED"
-      ],
-      "availability": true,
-      "rating": 4.5
-    },
-    {
-      "id": 5,
-      "title": "iPhone 14 Pro",
-      "image": "https://i.ibb.co.com/3MF3gwP/image.png",
-      "category": "iphone",
-      "price": 999.99,
-      "specifications": [
-        "A16 Bionic Chip",
-        "6.1-inch Super Retina XDR",
-        "48MP Camera System",
-        "256GB Storage"
-      ],
-      "availability": true,
-      "rating": 4.9
-    },
-    {
-      "id": 6,
-      "title": "iPhone 14",
-      "image": "https://i.ibb.co/Sdbqfqg/image.png",
-      "category": "iphone",
-      "price": 799.99,
-      "specifications": [
-        "A15 Bionic Chip",
-        "6.1-inch Super Retina XDR",
-        "Dual Camera System",
-        "128GB Storage"
-      ],
-      "availability": true,
-      "rating": 4.7
-    },
-    {
-      "id": 7,
-      "title": "Samsung Galaxy S23",
-      "image": "https://i.ibb.co.com/Bnm8PPP/image.png",
-      "category": "phones",
-      "price": 899.99,
-      "specifications": [
-        "Snapdragon 8 Gen 2",
-        "8GB RAM",
-        "256GB Storage",
-        "50MP Camera"
-      ],
-      "availability": true,
-      "rating": 4.5
-    },
-    {
-      "id": 8,
-      "title": "Google Pixel 7 Pro",
-      "image": "https://i.ibb.co.com/LRyCZpx/image.png",
-      "category": "phones",
-      "price": 899.99,
-      "specifications": [
-        "Google Tensor G2",
-        "12GB RAM",
-        "256GB Storage",
-        "50MP Camera"
-      ],
-      "availability": true,
-      "rating": 4.6
-    },
-    {
-      "id": 9,
-      "title": "Apple Watch Series 8",
-      "image": "https://i.ibb.co.com/x87vHmk/image.png",
-      "category": "smart watches",
-      "price": 399.99,
-      "specifications": [
-        "Always-On Retina Display",
-        "Temperature Sensing",
-        "Blood Oxygen Monitoring",
-        "ECG App"
-      ],
-      "availability": true,
-      "rating": 4.7
-    },
-    {
-      "id": 10,
-      "title": "Samsung Galaxy Watch 5",
-      "image": "https://i.ibb.co.com/LghhWHT/image.png",
-      "category": "smart watches",
-      "price": 279.99,
-      "specifications": [
-        "Super AMOLED Display",
-        "Body Composition Analysis",
-        "Advanced Sleep Coaching",
-        "ECG Monitoring"
-      ],
-      "availability": true,
-      "rating": 4.5
-    },
-    {
-      "id": 11,
-      "title": "AirPods Pro",
-      "image": "https://i.ibb.co.com/X5h5rnJ/image.png",
-      "category": "accessories",
-      "price": 249.99,
-      "specifications": [
-        "Active Noise Cancellation",
-        "Adaptive EQ",
-        "Spatial Audio",
-        "Water Resistant"
-      ],
-      "availability": true,
-      "rating": 4.8
-    },
-    {
-      "id": 12,
-      "title": "Magic Keyboard",
-      "image": "https://i.ibb.co.com/McdSZwZ/image.png",
-      "category": "accessories",
-      "price": 299.99,
-      "specifications": [
-        "Full-size Keyboard",
-        "Backlit Keys",
-        "Trackpad",
-        "USB-C Port"
-      ],
-      "availability": true,
-      "rating": 4.6
-    }
-  ]
-}
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "MacBook Pro M2",
+      "image": "https://i.ibb.co/0t5M1My/macbook-pro.png",
+      "category": "macbook",
+      "price": 1299.99,
+      "specifications": [
+        "Apple M2 Chip",
+        "16GB RAM",
+        "512GB SSD",
+        "13.3-inch Retina Display"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "title": "MacBook Air M2",
+      "image": "https://i.ibb.co/bsMqsF8/macbook-air.png",
+      "category": "macbook",
+      "price": 1199.99,
+      "specifications": [
+        "Apple M2 Chip",
+        "8GB RAM",
+        "256GB SSD",
+        "13.6-inch Liquid Retina Display"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "title": "Dell XPS 13",
+      "image": "https://i.ibb.co/Fx3Fz8j/dell-xps.png",
+      "category": "laptops",
+      "price": 1199.99,
+      "specifications": [
+        "Intel Core i7",
+        "16GB RAM",
+        "512GB SSD",
+        "13.4-inch 4K Display"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "title": "HP Spectre x360",
+      "image": "https://i.ibb.co/PMQD5Fg/hp-spectre.png",
+      "category": "laptops",
+      "price": 1399.99,
+      "specifications": [
+        "Intel Core i7",
+        "16GB RAM",
+        "1TB SSD",
+        "14-inch 4K OLED"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "id": 5,
+      "title": "iPhone 14 Pro",
+      "image": "https://i.ibb.co/3MF3gwP/iphone-14-pro.png",
+      "category": "iphone",
+      "price": 999.99,
+      "specifications": [
+        "A16 Bionic Chip",
+        "6.1-inch Super Retina XDR",
+        "48MP Camera System",
+        "256GB Storage"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "id": 6,
+      "title": "iPhone 14",
+      "image": "https://i.ibb.co/Sdbqfqg/iphone-14.png",
+      "category": "iphone",
+      "price": 799.99,
+      "specifications": [
+        "A15 Bionic Chip",
+        "6.1-inch Super Retina XDR",
+        "Dual Camera System",
+        "128GB Storage"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "id": 7,
+      "title": "Samsung Galaxy S23",
+      "image": "https://i.ibb.co/Bnm8PPP/samsung-s23.png",
+      "category": "phones",
+      "price": 899.99,
+      "specifications": [
+        "Snapdragon 8 Gen 2",
+        "8GB RAM",
+        "256GB Storage",
+        "50MP Camera"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "id": 8,
+      "title": "Google Pixel 7 Pro",
+      "image": "https://i.ibb.co/LRyCZpx/pixel-7.png",
+      "category": "phones",
+      "price": 899.99,
+      "specifications": [
+        "Google Tensor G2",
+        "12GB RAM",
+        "256GB Storage",
+        "50MP Camera"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "id": 9,
+      "title": "Apple Watch Series 8",
+      "image": "https://i.ibb.co/x87vHmk/apple-watch.png",
+      "category": "smart watches",
+      "price": 399.99,
+      "specifications": [
+        "Always-On Retina Display",
+        "Temperature Sensing",
+        "Blood Oxygen Monitoring",
+        "ECG App"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "id": 10,
+      "title": "Samsung Galaxy Watch 5",
+      "image": "https://i.ibb.co/LghhWHT/samsung-watch.png",
+      "category": "smart watches",
+      "price": 279.99,
+      "specifications": [
+        "Super AMOLED Display",
+        "Body Composition Analysis",
+        "Advanced Sleep Coaching",
+        "ECG Monitoring"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "id": 11,
+      "title": "AirPods Pro",
+      "image": "https://i.ibb.co/X5h5rnJ/airpods.png",
+      "category": "accessories",
+      "price": 249.99,
+      "specifications": [
+        "Active Noise Cancellation",
+        "Adaptive EQ",
+        "Spatial Audio",
+        "Water Resistant"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "id": 12,
+      "title": "Magic Keyboard",
+      "image": "https://i.ibb.co/McdSZwZ/magic-keyboard.png",
+      "category": "accessories",
+      "price": 299.99,
+      "specifications": [
+        "Full-size Keyboard",
+        "Backlit Keys",
+        "Trackpad",
+        "USB-C Port"
+      ],
+      "availability": true,
+      "rating": 4.6
+    }
+  ]
+}
+

@@ -22,12 +22,18 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/dashboard" className="text-gray-600 hover:text-purple-600">
+                <Link
+                  to="/dashboard"
+                  className="text-gray-600 hover:text-purple-600"
+                >
                   Dashboard
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-600 hover:text-purple-600">
+                <Link
+                  to="/about"
+                  className="text-gray-600 hover:text-purple-600"
+                >
                   About
                 </Link>
               </li>
@@ -38,17 +44,26 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Categories</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/?category=macbook" className="text-gray-600 hover:text-purple-600">
+                <Link
+                  to="/?category=macbook"
+                  className="text-gray-600 hover:text-purple-600"
+                >
                   MacBook
                 </Link>
               </li>
               <li>
-                <Link to="/?category=iphone" className="text-gray-600 hover:text-purple-600">
+                <Link
+                  to="/?category=iphone"
+                  className="text-gray-600 hover:text-purple-600"
+                >
                   iPhone
                 </Link>
               </li>
               <li>
-                <Link to="/?category=smart-watches" className="text-gray-600 hover:text-purple-600">
+                <Link
+                  to="/?category=smart-watches"
+                  className="text-gray-600 hover:text-purple-600"
+                >
                   Smart Watches
                 </Link>
               </li>
@@ -66,7 +81,9 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-200 mt-8 pt-8 text-center text-gray-600">
-          <p>&copy; {new Date().getFullYear()} GadgetHeaven. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} GadgetHeaven. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
